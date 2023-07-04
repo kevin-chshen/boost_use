@@ -4,11 +4,18 @@
 #pragma once
 
 #include "cmake_app.h"
+#include "config.h"
 
 
-int main()
+#include "test_log.h"
+
+int main(int, char*[])
 {
     printf("hello world!!\n");
+
+    std::cout << BOOST_LIB << "\n";
+
+    test_log::run();
 
     return 0;
 }

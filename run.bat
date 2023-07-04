@@ -1,1 +1,1 @@
-call .\build\Debug\cmake_app.exe
+call .\build\Debug\boost_app.exe
